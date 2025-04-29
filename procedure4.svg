@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Drainage illustration -->
+  <style>
+    .stroke { stroke: #2c3e50; stroke-width: 2; fill: none; }
+    .fill { fill: #9b59b6; }
+    .fluid { fill: #3498db; }
+    .text { font-family: Arial; font-size: 12px; fill: #2c3e50; }
+  </style>
+  
+  <!-- Zone de collection -->
+  <circle class="fluid" cx="100" cy="100" r="35" opacity="0.3"/>
+  
+  <!-- Cathéter de drainage -->
+  <path class="stroke" d="M60,60 Q100,100 140,140"/>
+  
+  <!-- Flux de drainage -->
+  <path class="fluid" d="M90,90 Q100,100 110,110" stroke-width="4" opacity="0.6"/>
+  <path class="fluid" d="M85,85 Q100,100 115,115" stroke-width="3" opacity="0.4"/>
+  
+  <!-- Points de guidage -->
+  <circle class="fill" cx="80" cy="80" r="3"/>
+  <circle class="fill" cx="120" cy="120" r="3"/>
+  
+  <!-- Légende -->
+  <text class="text" x="75" y="140">Drainage</text>
+</svg>

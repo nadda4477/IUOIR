@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Biopsie Guidée illustration -->
+  <style>
+    .stroke { stroke: #2c3e50; stroke-width: 2; fill: none; }
+    .fill { fill: #27ae60; }
+    .tissue { fill: #f1c40f; }
+    .text { font-family: Arial; font-size: 12px; fill: #2c3e50; }
+  </style>
+  
+  <!-- Tissu -->
+  <circle class="tissue" cx="100" cy="100" r="30" opacity="0.3"/>
+  
+  <!-- Aiguille de biopsie -->
+  <line class="stroke" x1="60" y1="60" x2="120" y2="120"/>
+  
+  <!-- Point de prélèvement -->
+  <circle class="fill" cx="100" cy="100" r="5"/>
+  
+  <!-- Guides -->
+  <line class="stroke" x1="80" y1="80" x2="120" y2="120" stroke-dasharray="5,5"/>
+  <line class="stroke" x1="120" y1="80" x2="80" y2="120" stroke-dasharray="5,5"/>
+  
+  <!-- Légende -->
+  <text class="text" x="60" y="140">Biopsie Guidée</text>
+</svg>

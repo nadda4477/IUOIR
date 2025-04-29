@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Angioplastie illustration -->
+  <style>
+    .stroke { stroke: #2c3e50; stroke-width: 2; fill: none; }
+    .fill { fill: #3498db; }
+    .text { font-family: Arial; font-size: 12px; fill: #2c3e50; }
+  </style>
+  
+  <!-- Artère -->
+  <path class="stroke" d="M40,100 C40,60 160,140 160,100"/>
+  
+  <!-- Ballon d'angioplastie -->
+  <ellipse class="fill" cx="100" cy="100" rx="15" ry="8" opacity="0.6"/>
+  
+  <!-- Cathéter -->
+  <line class="stroke" x1="30" y1="100" x2="170" y2="100"/>
+  
+  <!-- Légende -->
+  <text class="text" x="70" y="140">Angioplastie</text>
+</svg>
